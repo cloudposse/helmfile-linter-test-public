@@ -24,7 +24,7 @@ EMAIL_REPORTER_EMAIL: nicolas.vuillamy@gmail.com
 FILEIO_REPORTER: true
 PLUGINS:
   - https://raw.githubusercontent.com/nvuillam/mega-linter/master/.automation/test/mega-linter-plugin-test/test.megalinter-descriptor.yml
-  - https://raw.githubusercontent.com/cloudposse/actions/helmfile-mega-linter/github/mega-linter/mega-linter-plugin-helmfile/helmfile.megalinter-descriptor.yml
+  - https://raw.githubusercontent.com/cloudposse/actions/helmfile-mega-linter/github/mega-linter/mega-linter-plugin-helmfile/helmfile.megalinter-descriptor.yaml
   #- https://raw.githubusercontent.com/cloudposse/helmfile-linter-test-public/master/mega-linter-plugin-helmfile/helmfile-schema.megalinter-descriptor.yml
 PRE_COMMANDS:
   - command: echo "This is Mega-Linter PRE_COMMAND on own Mega-Linter ! :)"
