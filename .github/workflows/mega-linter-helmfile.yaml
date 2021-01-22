@@ -16,4 +16,4 @@ jobs:
       - name: "Checkout Commit"
         uses: actions/checkout@v2
       - name: "Lint Helmfiles"
-        uses: cloudposse/actions/github/mega-linter@a33474f
+        uses: cloudposse/actions/github/mega-linter@5430fa5
