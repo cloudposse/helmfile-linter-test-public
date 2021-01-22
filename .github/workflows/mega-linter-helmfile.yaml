@@ -19,3 +19,4 @@ jobs:
         uses: cloudposse/actions/github/mega-linter@5430fa5
         env:
             GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+            PLUGINS: "https://raw.githubusercontent.com/cloudposse/actions/helmfile-mega-linter/github/mega-linter/mega-linter-plugin-helmfile/helmfile.megalinter-descriptor.yml"
